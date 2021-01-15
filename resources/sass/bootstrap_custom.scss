@@ -1,0 +1,43 @@
+.my-text-color{
+    color: #ccc;
+    font-size: larger;
+}
+
+.my-text-color:hover{
+    text-decoration: none;
+    color: lighten($color: #ccc, $amount: 30%);
+    cursor: pointer;
+}
+
+.text-out{
+    font-size: larger;
+    color: darken($color: tomato, $amount: 10%)
+}
+
+.text-out:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: lighten($color: tomato, $amount: 5%)
+}
+
+.text-in{
+    font-size: larger;
+    color: darken($color: lightgreen, $amount: 10%)
+}
+
+.text-in:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: lighten($color: green, $amount: 5%)
+}
+
+.jumbotron{
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+#contrast{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
